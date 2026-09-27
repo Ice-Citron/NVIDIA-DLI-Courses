@@ -47,14 +47,20 @@ The slides explain methods for distributed model training.
 Course: *Getting Started with Accelerated Computing in CUDA C/C++*.
 
 I received a certificate of competency on 10 September 2024.
-This repository contains its [certificate][cuda-cert].
+The saved work covers CUDA kernels and GPU memory management.
+It also includes concurrent streams and Nsight Systems profiles.
+The N-body assessment output records a pass for both test sizes.
+
+[CUDA exercises and notes](cuda-cpp/) ·
+[Certificate][cuda-cert]
 
 ## Repository structure
 
 ```text
-certificates/       Completion certificates for NLP and CUDA C/C++.
-transformer-nlp/     NLP labs, assessment notebooks, and slides.
+certificates/      Completion certificates for NLP and CUDA C/C++.
+transformer-nlp/    NLP labs, assessment notebooks, and slides.
 model-parallelism/  Environment lab notebooks and course slides.
+cuda-cpp/          CUDA exercises, study notes, and saved outputs.
 ```
 
 ## Credits and licence
@@ -62,7 +68,8 @@ model-parallelism/  Environment lab notebooks and course slides.
 NVIDIA provided the course notebooks and lecture slides.
 This repository contains my saved course work and assessment attempts.
 
-The repository includes an [Apache 2.0 licence](LICENSE).
+The root contains an [Apache 2.0 licence](LICENSE).
+The CUDA folder retains its [MIT licence](cuda-cpp/LICENSE).
 
 [nlp-cert]: certificates/transformer-nlp.pdf
 [cuda-cert]: certificates/accelerated-computing-cuda-cpp.pdf
